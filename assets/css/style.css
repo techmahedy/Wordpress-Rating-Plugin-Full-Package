@@ -1,0 +1,39 @@
+.rating-container {
+	max-width: 95px;
+}
+.rating-container .average {
+	color: #fdb813;
+}
+   .rating-container span, .rating-container span:hover ~ span {
+	color: #222;
+	text-shadow: none;
+	transition: color 200ms;
+	transition-delay: 0;
+  
+  .rating-container:hover span {
+	color: #fc0;
+  }
+  
+  .rating-container:hover span:nth-child(2) {
+	transition-delay: 30ms;
+  }
+  
+  .rating-container:hover span:nth-child(3) {
+	transition-delay: 60ms;
+  }
+  
+  .ratrating-containere:hover span:nth-child(4) {
+	transition-delay: 90ms;
+  }
+  
+  .rating-container:hover span:nth-child(5) {
+	transition-delay: 120ms;
+  }
+
+  .rating-container span {
+	cursor: pointer;
+	font-style: normal;
+  }
+  
+
+  
